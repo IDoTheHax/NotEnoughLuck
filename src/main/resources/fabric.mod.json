@@ -1,15 +1,15 @@
 {
 	"schemaVersion": 1,
 	"id": "notenoughluck",
-	"version": "${version}",
+	"version": "0.1",
 	"name": "NotEnoughLuck",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "90% of gamblers quit before hitting gold",
 	"authors": [
-		"Me!"
+		"IDoTheHax & Qubimium"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/IDoTheHax/NotEnoughLuck"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/notenoughluck/icon.png",
@@ -36,7 +36,8 @@
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.20.6",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"geckolib": "4.5.4"
 	},
 	"suggests": {
 		"another-mod": "*"

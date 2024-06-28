@@ -1,0 +1,357 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.casino_machine_slots.fullslot1": {
+			"animation_length": 0.5,
+			"bones": {
+				"Slot1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [360, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.fullslot2": {
+			"animation_length": 0.5,
+			"bones": {
+				"Slot2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [360, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.fullslot3": {
+			"animation_length": 0.5,
+			"bones": {
+				"Slot3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [360, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.armspin": {
+			"animation_length": 1.5,
+			"bones": {
+				"Handle": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [50, 0, 0],
+							"easing": "easeInOutBack",
+							"easingArgs": [5]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.armspin2": {
+			"animation_length": 2,
+			"bones": {
+				"Handle": {
+					"rotation": {
+						"0.0": {
+							"vector": [50, 0, 0],
+							"easing": "easeInOutBack",
+							"easingArgs": [5]
+						},
+						"0.75": {
+							"vector": [0, 0, 0],
+							"easing": "easeInElastic",
+							"easingArgs": [2]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.fullall": {
+			"animation_length": 0.5,
+			"bones": {
+				"Slot1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [360, 0, 0]
+						}
+					}
+				},
+				"Slot2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [360, 0, 0]
+						}
+					}
+				},
+				"Slot3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [360, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.new": {
+			"loop": true
+		},
+		"animation.casino_machine_slots.1slot1": {
+			"animation_length": 2,
+			"bones": {
+				"Slot1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [90, 0, 0],
+							"easing": "easeOutBack",
+							"easingArgs": [2]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.1slot2": {
+			"animation_length": 2,
+			"bones": {
+				"Slot2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutBack"
+						},
+						"0.25": {
+							"vector": [90, 0, 0],
+							"easing": "easeOutBack",
+							"easingArgs": [2]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.1slot3": {
+			"animation_length": 2,
+			"bones": {
+				"Slot3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutBack"
+						},
+						"0.25": {
+							"vector": [90, 0, 0],
+							"easing": "easeOutBack",
+							"easingArgs": [2]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.2slot1": {
+			"animation_length": 2,
+			"bones": {
+				"Slot1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [90, 0, 0]
+						},
+						"0.375": {
+							"vector": [180, 0, 0],
+							"easing": "easeOutBack",
+							"easingArgs": [2]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.2slot2": {
+			"animation_length": 2,
+			"bones": {
+				"Slot2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [90, 0, 0]
+						},
+						"0.375": {
+							"vector": [180, 0, 0],
+							"easing": "easeOutBack",
+							"easingArgs": [2]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.2slot3": {
+			"animation_length": 2,
+			"bones": {
+				"Slot3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [90, 0, 0]
+						},
+						"0.375": {
+							"vector": [180, 0, 0],
+							"easing": "easeOutBack",
+							"easingArgs": [2]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.3slot1": {
+			"animation_length": 2,
+			"bones": {
+				"Slot1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [180, 0, 0]
+						},
+						"0.5": {
+							"vector": [270, 0, 0],
+							"easing": "easeOutBack",
+							"easingArgs": [2]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.3slot2": {
+			"animation_length": 2,
+			"bones": {
+				"Slot2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [180, 0, 0]
+						},
+						"0.5": {
+							"vector": [270, 0, 0],
+							"easing": "easeOutBack",
+							"easingArgs": [2]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.3slot3": {
+			"animation_length": 2,
+			"bones": {
+				"Slot3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [180, 0, 0]
+						},
+						"0.5": {
+							"vector": [270, 0, 0],
+							"easing": "easeOutBack",
+							"easingArgs": [2]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.4slot1": {
+			"animation_length": 2,
+			"bones": {
+				"Slot3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.375": {
+							"vector": [270, 0, 0]
+						},
+						"0.625": {
+							"vector": [360, 0, 0],
+							"easing": "easeOutBack",
+							"easingArgs": [2]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.4slot2": {
+			"animation_length": 2,
+			"bones": {
+				"Slot3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.375": {
+							"vector": [270, 0, 0]
+						},
+						"0.625": {
+							"vector": [360, 0, 0],
+							"easing": "easeOutBack",
+							"easingArgs": [2]
+						}
+					}
+				}
+			}
+		},
+		"animation.casino_machine_slots.4slot3": {
+			"animation_length": 2,
+			"bones": {
+				"Slot3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.375": {
+							"vector": [270, 0, 0]
+						},
+						"0.625": {
+							"vector": [360, 0, 0],
+							"easing": "easeOutBack",
+							"easingArgs": [2]
+						}
+					}
+				}
+			}
+		}
+	}
+}

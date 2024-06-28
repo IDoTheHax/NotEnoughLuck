@@ -26,6 +26,6 @@ public class ModItems {
     public static void registerModItems() {
         NotEnoughLuck.LOGGER.info("Registering Mod Items for " + NotEnoughLuck.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(ModItems::addItemsToIngredientsTabItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientsTabItemGroup);
     }
 }

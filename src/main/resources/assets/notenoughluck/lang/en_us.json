@@ -1,3 +1,5 @@
 {
-  "item.notenoughluck.chip": "Chip"
+  "item.notenoughluck.chip": "Chip",
+  "block.notenoughluck.slots": "One-armed Bandit",
+  "itemgroup.gambling": "Gambling Items"
 }
