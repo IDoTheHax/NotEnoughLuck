@@ -14,7 +14,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block SLOTS = registerBlock("slots",
+    public static final Block SLOTS = registerBlock("slots_geo",
             new Block(AbstractBlock.Settings.create().burnable().instrument(Instrument.PLING).hardness(3).jumpVelocityMultiplier(2).sounds(BlockSoundGroup.WOOD)));
 
     private static Block registerBlock(String name, Block block) {

@@ -1,6 +1,10 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
+		"animation.casino_machine_slots.idle": {
+			"loop": true,
+			"animation_length": 1
+		},
 		"animation.casino_machine_slots.fullslot1": {
 			"animation_length": 0.5,
 			"bones": {
