@@ -29,7 +29,7 @@ public class SlotsBlock extends BlockWithEntity {
     @Nullable
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
-        return new AnimatedBlockEntity(pos, state);
+        return new SlotsEntity(pos, state);
     }
 
     @Nullable
